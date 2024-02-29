@@ -4,7 +4,7 @@ Este projeto consiste na criação de um aplicativo para gerenciar uma coleção
 
 ## Funcionalidades
 
-1.  **Adição de Jogos:** Os usuários podem adicionar novos jogos à sua coleção, inserindo informações como título, plataforma e gênero.
+1.  **Adição de Jogos:** Os usuários podem adicionar novos jogos à sua coleção, inserindo informações como título e capa.
     
 2.  **Visualização da Coleção:** Uma interface intuitiva exibe a coleção de jogos, permitindo aos usuários ver os detalhes de cada jogo.
     
