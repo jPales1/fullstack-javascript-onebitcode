@@ -1,8 +1,13 @@
-# React + Vite
+# Componente React - Área de Comentários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste na criação de um componente React que representa uma área de comentários interativa. Os usuários podem preencher um formulário com seu e-mail e comentário, que será então exibido na tela abaixo. Os comentários são ordenados do mais recente para o mais antigo, proporcionando uma experiência de visualização intuitiva.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.  **Formulário de Comentário:** Um formulário de preenchimento permite aos usuários inserir seu e-mail e comentário.
+    
+2.  **Exibição de Comentários:** Os comentários dos usuários são exibidos na tela, ordenados do mais recente para o mais antigo.
+    
+3.  **Feedback de Nenhum Comentário:** Se não houver nenhum comentário, uma mensagem informativa é exibida, indicando que não há comentários disponíveis.
+    
+4.  **Ordenação de Comentários:** Os comentários são organizados de forma que os mais recentes apareçam no topo da lista.

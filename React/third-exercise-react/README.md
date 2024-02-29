@@ -1,8 +1,5 @@
-# React + Vite
+# Componente React - "Profile"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto consiste na criação do componente "Profile" em um novo projeto React utilizando Vite. Esse componente é projetado para receber propriedades como avatar, nome, bio, e-mail, telefone, URL do GitHub, URL do LinkedIn e URL do Twitter. O objetivo é renderizar um cartão de perfil com informações essenciais, incluindo foto, nome, e-mail, cargo, telefone e links para redes sociais (GitHub, LinkedIn, Twitter).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O componente "Profile" proporciona uma maneira simples e flexível de exibir informações de perfil em um formato atraente. Personalize as propriedades conforme necessário para atender aos requisitos específicos de sua aplicação.

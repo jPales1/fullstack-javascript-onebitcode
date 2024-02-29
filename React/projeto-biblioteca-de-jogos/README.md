@@ -1,8 +1,13 @@
-# React + Vite
+# Aplicativo de Gerenciamento de Coleção de Jogos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste na criação de um aplicativo para gerenciar uma coleção de jogos, proporcionando aos usuários a capacidade de armazenar e visualizar informações sobre seus jogos favoritos. A principal característica deste aplicativo é a persistência de dados no local storage, garantindo que as informações da coleção não se percam ao sair da página.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.  **Adição de Jogos:** Os usuários podem adicionar novos jogos à sua coleção, inserindo informações como título, plataforma e gênero.
+    
+2.  **Visualização da Coleção:** Uma interface intuitiva exibe a coleção de jogos, permitindo aos usuários ver os detalhes de cada jogo.
+    
+3.  **Persistência de Dados:** Os dados da coleção são armazenados no local storage, garantindo que as informações sejam mantidas mesmo ao recarregar ou fechar a página.
+    
+4.  **Exclusão de Jogos:** Os usuários têm a opção de remover jogos de sua coleção, proporcionando flexibilidade na gestão da lista.

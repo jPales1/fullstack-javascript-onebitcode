@@ -1,8 +1,3 @@
-# React + Vite
+# Projeto React - Componente "Card"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto React consiste na criação de um componente chamado "Card", desenvolvido em um arquivo separado do componente principal "App.jsx". O objetivo é exibir um card estilizado, dividido em duas seções: uma com um poster à esquerda e outra com informações sobre o poster à direita.
