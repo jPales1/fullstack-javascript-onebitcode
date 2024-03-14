@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 20px 0 0;
+}
+
+#player1,
+#player2 {
+  margin-bottom: 10px;
+}
+
+label[for="player1"], label[for="player2"]{
+  margin-bottom: 5px;
+}
+
+#gameBoard {
+  background-color: #232323;
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+  max-width: 19rem;
+}
+
+#gameBoard span {
+  background-color: #ddd;
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+}
+
+#gameBoard span.win {
+  background-color: #25a340;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.no-cursor-pointer {
+  cursor: not-allowed;
+}

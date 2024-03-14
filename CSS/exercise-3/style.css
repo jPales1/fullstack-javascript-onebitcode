@@ -1,0 +1,78 @@
+* {
+  font-family: 'Fira Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid #030308;
+  padding: 1rem 0;
+}
+
+h1, h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.primeiraSecao, .segundaSecao, .terceiraSecao {
+  padding: 2rem;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+}
+
+.inscreva {
+  background-color: #030308;
+  border-radius: 9999px;
+  color: #fff;
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 1.5rem;
+  width: fit-content;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.generos{
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.genero,
+.mais {
+  margin-left: 1rem;
+  background-color: #43abf6;
+  border-radius: 9999px;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+}
+
+.mais {
+  background-color: #030308;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #030308;
+  color: #fff;
+  font-family: "Lora", serif;
+  padding: 2rem;
+}

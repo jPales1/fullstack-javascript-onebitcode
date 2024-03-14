@@ -1,0 +1,6 @@
+.escalar, .remover{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 20px;
+}
