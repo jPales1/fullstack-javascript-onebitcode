@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finanças Pessoais</title>
+</head>
+
+<body>
+  <main style="display: flex; gap: 4rem; margin: 1rem 2rem;">
+    <form id="addTransaction">
+      <h2>Adicionar uma transação</h2>
+      <label for="transactionName">Nome:</label>
+      <br>
+      <input type="text" id="transactionName" name="transactionName">
+      <br>
+      <br>
+      <label for="transactionValue">Valor:</label>
+      <br>
+      <input type="number" id="transactionValue" name="transactionValue">
+      <br>
+      <br>
+      <button>Adicionar</button>
+    </form>
+    <div>
+      <h2>Editar transação</h2>
+      <form id="editTransaction">
+        <label for="editTransactionId">ID:</label>
+        <br>
+        <input type="text" id="editTransactionId" name="editTransactionId">
+        <br><br>
+        <label for="editTransactionName">Nome:</label>
+        <br>
+        <input type="text" id="editTransactionName" name="editTransactionName">
+        <br><br>
+        <label for="editTransactionValue">Valor:</label>
+        <br>
+        <input type="number" id="editTransactionValue" name="editTransactionValue">
+        <br><br>
+        <button>Editar</button>
+      </form>
+    </div>
+    <div>
+      <h2>Transações</h2>
+      <section id="transactions"></section>
+    </div>
+    <div>
+      <h2>Saldo</h2>
+      <p id="balance"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

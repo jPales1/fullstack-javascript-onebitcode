@@ -1,0 +1,14 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "name": "Pix para João",
+      "value": 100
+    },
+    {
+      "id": "36d4",
+      "name": "Pix para Jose",
+      "value": -100
+    }
+  ]
+}
